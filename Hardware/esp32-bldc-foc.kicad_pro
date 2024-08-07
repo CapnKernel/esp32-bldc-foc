@@ -2,10 +2,8 @@
   "board": {
     "3dviewports": [],
     "design_settings": {
-      "defaults": {},
       "diff_pair_dimensions": [],
       "drc_exclusions": [],
-      "rules": {},
       "track_widths": [],
       "via_dimensions": []
     },
@@ -236,9 +234,7 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "esp32-bldc-foc",
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
     "filename": "esp32-bldc-foc.kicad_pro",
@@ -357,14 +353,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
+      "label_size_ratio": 0.25,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -387,6 +383,22 @@
     [
       "5fd9cc58-24f5-445f-b12c-0418263ff67c",
       "Root"
+    ],
+    [
+      "12ab4157-c7bf-451c-8aee-368043a324bf",
+      "phase_b"
+    ],
+    [
+      "25305f8b-f225-4737-b629-c8d6ad5e2ae3",
+      "phase_c"
+    ],
+    [
+      "c855a557-7632-47ee-81d6-38c29921d94d",
+      "phase_a"
+    ],
+    [
+      "f37eae90-43b2-42c7-9e0c-bd865b5bf54f",
+      "PSU"
     ]
   ],
   "text_variables": {}
