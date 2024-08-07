@@ -237,7 +237,7 @@
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
-      "esp32-bldc-foc"
+      "esp32-bldc-foc",
     ]
   },
   "meta": {
@@ -383,6 +383,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "5fd9cc58-24f5-445f-b12c-0418263ff67c",
+      "Root"
+    ]
+  ],
   "text_variables": {}
 }
