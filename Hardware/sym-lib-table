@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "afork-kicad-parts")(type "KiCad")(uri "${KIPRJMOD}/afork-kicad-parts/afork-kicad-parts.kicad_sym")(options "")(descr ""))
+  (lib (name "esp32-bldc-foc")(type "KiCad")(uri "${KIPRJMOD}/esp32-bldc-foc.kicad_sym")(options "")(descr ""))
+)

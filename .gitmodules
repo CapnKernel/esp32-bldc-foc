@@ -1,0 +1,3 @@
+[submodule "afork-kicad-parts"]
+	path = afork-kicad-parts
+	url = https://github.com/CapnKernel/afork-kicad-parts.git
