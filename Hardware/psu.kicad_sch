@@ -3457,7 +3457,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 182.88 56.388 90)
 			(effects
 				(font
@@ -3525,7 +3525,7 @@
 				)
 			)
 		)
-		(property "Footprint" ":SOIC-8_L4.9-W3.9-P1.27-LS6.0-TL-EP-1"
+		(property "Footprint" "esp32-bldc-foc:SOIC-8_L4.9-W3.9-P1.27-LS6.0-TL-EP-1"
 			(at 135.89 81.28 0)
 			(effects
 				(font
@@ -4171,7 +4171,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 59.69 67.818 90)
 			(effects
 				(font
@@ -4503,7 +4503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 69.85 66.04 0)
 			(effects
 				(font
@@ -5847,7 +5847,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220u"
+		(property "Value" "220u 16V"
 			(at 171.831 61.2831 0)
 			(effects
 				(font
@@ -5856,7 +5856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x5.8"
 			(at 169.8752 64.77 0)
 			(effects
 				(font
@@ -6053,7 +6053,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "100u 35V"
 			(at 98.171 76.5231 0)
 			(effects
 				(font
@@ -6062,7 +6062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x5.8"
 			(at 96.2152 80.01 0)
 			(effects
 				(font
@@ -6268,7 +6268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
 			(at 156.21 60.96 0)
 			(effects
 				(font
@@ -6417,7 +6417,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "100u 35V"
 			(at 89.281 76.5231 0)
 			(effects
 				(font
@@ -6426,7 +6426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x5.8"
 			(at 87.3252 80.01 0)
 			(effects
 				(font
