@@ -5282,7 +5282,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 63.5) (xy 172.72 63.5)
+			(xy 161.29 60.96) (xy 172.72 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5522,7 +5522,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 58.42) (xy 172.72 58.42)
+			(xy 161.29 63.5) (xy 172.72 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6162,7 +6162,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 60.96) (xy 172.72 60.96)
+			(xy 161.29 58.42) (xy 172.72 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6751,7 +6751,7 @@
 		(uuid "7fc1bd3e-080e-409d-a369-c500779dd4d0")
 	)
 	(label "CURRENT_B"
-		(at 161.29 63.5 0)
+		(at 161.29 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6927,7 +6927,7 @@
 		(uuid "a0542f84-4ec0-45d1-abfb-800ca80c1555")
 	)
 	(label "CURRENT_A"
-		(at 161.29 60.96 0)
+		(at 161.29 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9129,7 +9129,7 @@
 	)
 	(symbol
 		(lib_id "afork-kicad-parts:PCB_Pin_Breakout")
-		(at 158.75 58.42 0)
+		(at 158.75 63.5 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9139,7 +9139,7 @@
 		(fields_autoplaced yes)
 		(uuid "71e8ce2c-cef6-4b27-807d-52406350ae5f")
 		(property "Reference" "P2"
-			(at 158.75 56.388 0)
+			(at 158.75 61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9148,7 +9148,7 @@
 			)
 		)
 		(property "Value" "PCB_Pin_Breakout"
-			(at 158.496 59.944 0)
+			(at 158.496 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9157,7 +9157,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 158.75 58.42 0)
+			(at 158.75 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9166,7 +9166,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 58.42 0)
+			(at 158.75 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9175,7 +9175,7 @@
 			)
 		)
 		(property "Description" "PCB pin breakout"
-			(at 158.75 58.42 0)
+			(at 158.75 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
