@@ -9614,8 +9614,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C190343"
-			(at 52.07 158.75 0)
+		(property "LCSC" "C190343"
+			(at 52.07 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)

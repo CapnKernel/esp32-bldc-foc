@@ -2193,8 +2193,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2828592"
-			(at 96.52 87.63 0)
+		(property "LCSC" "C2828592"
+			(at 92.71 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3128,8 +3128,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2828592"
-			(at 96.52 62.23 0)
+		(property "LCSC" "C2828592"
+			(at 92.71 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3608,8 +3608,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2058943"
-			(at 132.08 87.63 0)
+		(property "LCSC" "C2058943"
+			(at 132.08 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)

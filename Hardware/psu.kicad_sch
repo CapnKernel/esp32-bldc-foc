@@ -3552,8 +3552,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C7304223"
-			(at 135.89 83.82 0)
+		(property "LCSC" "C7304223"
+			(at 135.89 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
