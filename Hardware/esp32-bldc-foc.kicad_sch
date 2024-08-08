@@ -2535,6 +2535,154 @@
 				)
 			)
 		)
+		(symbol "afork-kicad-parts:PCB_Patch"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "P"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PCB_Patch"
+				(at 0.254 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "afork-kicad-parts:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+				(at 1.27 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, normally closed, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "jumper link bridge NC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PCB_Patch_0_1"
+				(rectangle
+					(start -0.254 0.508)
+					(end -1.27 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 0.508) (xy -1.143 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 0) (xy 0.254 0)
+					)
+					(stroke
+						(width 0.0005)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.254 0.508)
+					(end 1.27 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PCB_Patch_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "afork-kicad-parts:PCB_Pin_Breakout"
 			(pin_numbers hide)
 			(pin_names
@@ -5254,7 +5402,7 @@
 		(uuid "2cb3645c-6f0b-4071-800b-1fdf396bbf7c")
 	)
 	(junction
-		(at 148.59 26.67)
+		(at 119.38 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4430b478-ad1e-49aa-bf2d-5f64d1bf1004")
@@ -5272,7 +5420,7 @@
 		(uuid "4df18748-3720-4bbf-bbbf-2efdc9904794")
 	)
 	(junction
-		(at 148.59 36.83)
+		(at 119.38 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fe81870-3f57-4bf6-8f32-849235c222c4")
@@ -5353,7 +5501,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 39.37) (xy 278.13 39.37)
+			(xy 264.16 39.37) (xy 266.7 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5363,7 +5511,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 81.28) (xy 172.72 81.28)
+			(xy 154.94 81.28) (xy 165.1 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5493,7 +5641,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 67.31) (xy 278.13 67.31)
+			(xy 264.16 67.31) (xy 266.7 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5573,6 +5721,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 29.21) (xy 172.72 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28ddf912-5a19-4887-a402-5c7b610c37fb")
+	)
+	(wire
+		(pts
 			(xy 278.13 74.93) (xy 264.16 74.93)
 		)
 		(stroke
@@ -5603,6 +5761,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 43.18) (xy 172.72 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a6b87b3-4c14-4012-9126-efde96019c6e")
+	)
+	(wire
+		(pts
 			(xy 87.63 128.27) (xy 87.63 130.81)
 		)
 		(stroke
@@ -5610,6 +5778,16 @@
 			(type default)
 		)
 		(uuid "2ac06d55-33c5-4330-9887-e5e2908a7c65")
+	)
+	(wire
+		(pts
+			(xy 170.18 66.04) (xy 172.72 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c91ad65-74de-48bd-b04c-0200bb573d05")
 	)
 	(wire
 		(pts
@@ -5633,6 +5811,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 41.91) (xy 278.13 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ec0d2ca-040c-44d3-ad19-ae45eb390c22")
+	)
+	(wire
+		(pts
 			(xy 278.13 72.39) (xy 264.16 72.39)
 		)
 		(stroke
@@ -5643,7 +5831,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 60.96) (xy 172.72 60.96)
+			(xy 154.94 60.96) (xy 165.1 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5703,7 +5891,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 25.4) (xy 148.59 26.67)
+			(xy 119.38 26.67) (xy 119.38 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5723,7 +5911,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 78.74) (xy 172.72 78.74)
+			(xy 154.94 78.74) (xy 165.1 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5743,7 +5931,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 36.83) (xy 148.59 36.83)
+			(xy 113.03 38.1) (xy 119.38 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5823,13 +6011,23 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 39.37) (xy 172.72 39.37)
+			(xy 154.94 39.37) (xy 165.1 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3d5cb731-a159-4b0e-a6c8-cfc4162de861")
+	)
+	(wire
+		(pts
+			(xy 170.18 71.12) (xy 172.72 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ec8cbf7-748b-42b2-b91e-74f9d0f70695")
 	)
 	(wire
 		(pts
@@ -5873,6 +6071,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 39.37) (xy 172.72 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4655bec3-af51-4d63-84f1-2b23e9428c0a")
+	)
+	(wire
+		(pts
 			(xy 36.83 146.05) (xy 36.83 160.02)
 		)
 		(stroke
@@ -5893,7 +6101,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 63.5) (xy 172.72 63.5)
+			(xy 154.94 63.5) (xy 172.72 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5933,7 +6141,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 35.56) (xy 142.24 36.83)
+			(xy 113.03 36.83) (xy 113.03 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5993,13 +6201,23 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 68.58) (xy 172.72 68.58)
+			(xy 154.94 68.58) (xy 165.1 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "56e9a2af-bc25-4927-a867-0b52ed0bc967")
+	)
+	(wire
+		(pts
+			(xy 170.18 81.28) (xy 172.72 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57bf9988-cd83-473f-a9a3-fe424fd0a19e")
 	)
 	(wire
 		(pts
@@ -6043,7 +6261,17 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 66.04) (xy 172.72 66.04)
+			(xy 271.78 34.29) (xy 278.13 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d67879-7363-4240-a71f-25182c955515")
+	)
+	(wire
+		(pts
+			(xy 154.94 66.04) (xy 165.1 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6053,7 +6281,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 55.88) (xy 172.72 55.88)
+			(xy 154.94 55.88) (xy 172.72 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6093,7 +6321,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 69.85) (xy 278.13 69.85)
+			(xy 264.16 69.85) (xy 266.7 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6153,13 +6381,23 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 45.72) (xy 172.72 45.72)
+			(xy 154.94 45.72) (xy 165.1 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6cc06b21-a60d-47be-bb0b-298898190708")
+	)
+	(wire
+		(pts
+			(xy 170.18 60.96) (xy 172.72 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d43f231-3922-45b7-abd2-2717fbf92627")
 	)
 	(wire
 		(pts
@@ -6233,7 +6471,17 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 76.2) (xy 172.72 76.2)
+			(xy 170.18 68.58) (xy 172.72 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a908954-2595-4750-97fb-6db9b12e7ace")
+	)
+	(wire
+		(pts
+			(xy 154.94 76.2) (xy 165.1 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6263,6 +6511,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 67.31) (xy 278.13 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f9ef3f9-0e16-4b0d-bb5d-10edb04c6c6d")
+	)
+	(wire
+		(pts
 			(xy 20.32 123.19) (xy 31.75 123.19)
 		)
 		(stroke
@@ -6270,6 +6528,16 @@
 			(type default)
 		)
 		(uuid "806187d4-cd96-41b6-8798-beb388047b45")
+	)
+	(wire
+		(pts
+			(xy 271.78 39.37) (xy 278.13 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84d14145-a676-41fb-bc11-bbed6d900c8e")
 	)
 	(wire
 		(pts
@@ -6283,7 +6551,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 43.18) (xy 172.72 43.18)
+			(xy 154.94 43.18) (xy 165.1 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6293,7 +6561,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 26.67) (xy 148.59 27.94)
+			(xy 119.38 27.94) (xy 119.38 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6343,7 +6611,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 27.94) (xy 142.24 26.67)
+			(xy 113.03 29.21) (xy 113.03 27.94)
 		)
 		(stroke
 			(width 0)
@@ -6473,6 +6741,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 34.29) (xy 172.72 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad4633f6-87ef-4d59-b197-f369229ab6c1")
+	)
+	(wire
+		(pts
 			(xy 195.58 138.43) (xy 204.47 138.43)
 		)
 		(stroke
@@ -6503,7 +6781,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 36.83) (xy 148.59 38.1)
+			(xy 119.38 38.1) (xy 119.38 39.37)
 		)
 		(stroke
 			(width 0)
@@ -6533,7 +6811,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 58.42) (xy 172.72 58.42)
+			(xy 154.94 58.42) (xy 165.1 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6583,7 +6861,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 29.21) (xy 172.72 29.21)
+			(xy 163.83 29.21) (xy 165.1 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6623,7 +6901,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 83.82) (xy 172.72 83.82)
+			(xy 154.94 83.82) (xy 165.1 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6693,7 +6971,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 34.29) (xy 278.13 34.29)
+			(xy 264.16 34.29) (xy 266.7 34.29)
 		)
 		(stroke
 			(width 0)
@@ -6710,6 +6988,26 @@
 			(type default)
 		)
 		(uuid "c7317d88-7e3a-47bc-8dd6-aba4f15e93a4")
+	)
+	(wire
+		(pts
+			(xy 170.18 58.42) (xy 172.72 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca19a036-feb6-4af2-bf3f-67ca226f4930")
+	)
+	(wire
+		(pts
+			(xy 170.18 45.72) (xy 172.72 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc179821-4445-4b35-a2b5-776e7a68837f")
 	)
 	(wire
 		(pts
@@ -6773,7 +7071,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 26.67) (xy 148.59 26.67)
+			(xy 113.03 27.94) (xy 119.38 27.94)
 		)
 		(stroke
 			(width 0)
@@ -6783,7 +7081,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 73.66) (xy 172.72 73.66)
+			(xy 154.94 73.66) (xy 172.72 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6803,7 +7101,17 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 41.91) (xy 278.13 41.91)
+			(xy 170.18 76.2) (xy 172.72 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25c0546-2dc7-4bda-94f1-71c26c1c8b5c")
+	)
+	(wire
+		(pts
+			(xy 264.16 41.91) (xy 266.7 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6833,6 +7141,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 83.82) (xy 172.72 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8feb638-2bbd-4ec0-9adc-48c23c35695c")
+	)
+	(wire
+		(pts
 			(xy 64.77 133.35) (xy 81.28 133.35)
 		)
 		(stroke
@@ -6843,7 +7161,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 21.59) (xy 168.91 29.21)
+			(xy 163.83 21.59) (xy 163.83 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6863,7 +7181,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 71.12) (xy 172.72 71.12)
+			(xy 154.94 71.12) (xy 165.1 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6983,6 +7301,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 69.85) (xy 278.13 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea8637a7-fa7d-486e-9626-4b7a1a2f1c65")
+	)
+	(wire
+		(pts
 			(xy 265.43 118.11) (xy 265.43 120.65)
 		)
 		(stroke
@@ -7023,7 +7351,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 34.29) (xy 172.72 34.29)
+			(xy 154.94 34.29) (xy 165.1 34.29)
 		)
 		(stroke
 			(width 0)
@@ -7033,7 +7361,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 35.56) (xy 148.59 36.83)
+			(xy 119.38 36.83) (xy 119.38 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7050,6 +7378,16 @@
 			(type default)
 		)
 		(uuid "f0e7fc5c-d9bc-4a4a-8651-a660aa605295")
+	)
+	(wire
+		(pts
+			(xy 170.18 78.74) (xy 172.72 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1b7ec1f-4b5d-4f21-a1a7-3489aae7655a")
 	)
 	(wire
 		(pts
@@ -7122,7 +7460,7 @@
 		(uuid "7fc1bd3e-080e-409d-a369-c500779dd4d0")
 	)
 	(label "CURRENT_B"
-		(at 161.29 60.96 0)
+		(at 154.94 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7133,7 +7471,7 @@
 		(uuid "03189d90-f884-4753-94ad-d339820640b5")
 	)
 	(label "~{BOOT}"
-		(at 161.29 39.37 0)
+		(at 154.94 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7166,7 +7504,7 @@
 		(uuid "21d9efe9-4f19-4b0e-a56e-f76d839c9c1f")
 	)
 	(label "USB_D_P"
-		(at 161.29 43.18 0)
+		(at 154.94 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7177,7 +7515,7 @@
 		(uuid "2e144988-c7aa-423e-ad4a-8df0c6601106")
 	)
 	(label "SCL_1"
-		(at 161.29 83.82 0)
+		(at 154.94 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7243,7 +7581,7 @@
 		(uuid "7568308a-f4d1-47db-a31a-9b3f1510207b")
 	)
 	(label "PHASE_A"
-		(at 161.29 66.04 0)
+		(at 154.94 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7254,7 +7592,7 @@
 		(uuid "77ac921a-7d96-4cdc-a1fd-f7710fca9b09")
 	)
 	(label "USB_D_N"
-		(at 161.29 45.72 0)
+		(at 154.94 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7298,7 +7636,7 @@
 		(uuid "a0542f84-4ec0-45d1-abfb-800ca80c1555")
 	)
 	(label "CURRENT_A"
-		(at 161.29 58.42 0)
+		(at 154.94 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7320,7 +7658,7 @@
 		(uuid "ab161216-cc18-4605-951c-9b35b6642dc2")
 	)
 	(label "PHASE_C"
-		(at 161.29 71.12 0)
+		(at 154.94 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7331,7 +7669,7 @@
 		(uuid "aee31739-606e-4229-a77d-c6fd8ec28bbe")
 	)
 	(label "SDA_0"
-		(at 161.29 76.2 0)
+		(at 154.94 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7364,7 +7702,7 @@
 		(uuid "b45ec743-5276-4cda-8b92-b7eac4df77e1")
 	)
 	(label "PHASE_B"
-		(at 161.29 68.58 0)
+		(at 154.94 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7441,7 +7779,7 @@
 		(uuid "d38e355b-05ff-4f3d-8065-d7a2ac0d1e61")
 	)
 	(label "SDA_1"
-		(at 161.29 81.28 0)
+		(at 154.94 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7452,7 +7790,7 @@
 		(uuid "da958e19-9330-4593-bccd-b56ca8ee5d0f")
 	)
 	(label "~{RESET}"
-		(at 161.29 34.29 0)
+		(at 154.94 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7496,7 +7834,7 @@
 		(uuid "f3a037da-0330-436e-adf9-11dee1ab6aa4")
 	)
 	(label "SCL_0"
-		(at 161.29 78.74 0)
+		(at 154.94 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7582,6 +7920,76 @@
 			(project "esp32-bldc-foc"
 				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "afork-kicad-parts:PCB_Patch")
+		(at 167.64 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a00159f-1b69-45e4-bde8-e131b7f9fab0")
+		(property "Reference" "P30"
+			(at 167.64 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PCB_Patch"
+			(at 167.894 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "afork-kicad-parts:tinySJ-Bridged"
+			(at 168.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, normally closed, small symbol"
+			(at 167.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abbeb5c5-8b4c-467c-a361-2f995f2fde2d")
+		)
+		(pin "2"
+			(uuid "d24047d9-c727-42c6-b1e2-75949985dffc")
+		)
+		(instances
+			(project "esp32-bldc-foc"
+				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
+					(reference "P30")
 					(unit 1)
 				)
 			)
@@ -8123,6 +8531,76 @@
 		)
 	)
 	(symbol
+		(lib_id "afork-kicad-parts:PCB_Patch")
+		(at 167.64 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1995c6dd-958c-4d55-b315-1320b7e29cfd")
+		(property "Reference" "P26"
+			(at 167.64 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PCB_Patch"
+			(at 167.894 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "afork-kicad-parts:tinySJ-Bridged"
+			(at 168.91 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, normally closed, small symbol"
+			(at 167.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54ccc5b0-bafd-455d-9092-1e74d84ca331")
+		)
+		(pin "2"
+			(uuid "dd56061b-3712-4cb2-9274-6ee3644f5c12")
+		)
+		(instances
+			(project "esp32-bldc-foc"
+				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
+					(reference "P26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "afork-kicad-parts:PCB_Pin_Breakout")
 		(at 280.67 77.47 0)
 		(unit 1)
@@ -8264,7 +8742,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 38.1 0)
+		(at 119.38 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8273,7 +8751,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b5740b7-865b-4bb0-8224-1c3097668848")
 		(property "Reference" "#PWR01011"
-			(at 148.59 44.45 0)
+			(at 119.38 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8282,7 +8760,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 42.2331 0)
+			(at 119.38 43.5031 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8290,7 +8768,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 38.1 0)
+			(at 119.38 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8299,7 +8777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 38.1 0)
+			(at 119.38 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8308,7 +8786,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 38.1 0)
+			(at 119.38 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8323,6 +8801,76 @@
 			(project "esp32-bldc-foc"
 				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
 					(reference "#PWR01011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "afork-kicad-parts:PCB_Patch")
+		(at 167.64 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ce6ab02-3b92-43fa-a764-6f3ab2882f37")
+		(property "Reference" "P24"
+			(at 167.64 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PCB_Patch"
+			(at 167.894 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "afork-kicad-parts:tinySJ-Bridged"
+			(at 168.91 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, normally closed, small symbol"
+			(at 167.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "419b2612-a63b-4d42-b9b7-2322478d6c44")
+		)
+		(pin "2"
+			(uuid "8184d235-7f7e-4024-b43f-9c068c26503b")
+		)
+		(instances
+			(project "esp32-bldc-foc"
+				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
+					(reference "P24")
 					(unit 1)
 				)
 			)
@@ -8396,7 +8944,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 148.59 25.4 0)
+		(at 119.38 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8405,7 +8953,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f83cbee-9803-48b3-adf3-5d439a8f23dc")
 		(property "Reference" "#PWR01010"
-			(at 148.59 29.21 0)
+			(at 119.38 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8414,7 +8962,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 149.987 24.13 0)
+			(at 120.777 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8423,7 +8971,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 25.4 0)
+			(at 119.38 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8432,7 +8980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 25.4 0)
+			(at 119.38 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8441,7 +8989,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 148.59 25.4 0)
+			(at 119.38 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8522,6 +9070,76 @@
 			(project "esp32-bldc-foc"
 				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
 					(reference "P21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "afork-kicad-parts:PCB_Patch")
+		(at 269.24 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3446a9a0-94b0-4dd2-936d-670f82af1adf")
+		(property "Reference" "P36"
+			(at 269.24 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PCB_Patch"
+			(at 269.494 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "afork-kicad-parts:tinySJ-Bridged"
+			(at 270.51 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, normally closed, small symbol"
+			(at 269.24 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d57989c1-3f60-4ec9-96d6-9833ed877baf")
+		)
+		(pin "2"
+			(uuid "70d0a4e5-b680-4757-a23d-58ce61392bae")
+		)
+		(instances
+			(project "esp32-bldc-foc"
+				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
+					(reference "P36")
 					(unit 1)
 				)
 			)
@@ -8680,6 +9298,76 @@
 			(project "esp32-bldc-foc"
 				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "afork-kicad-parts:PCB_Patch")
+		(at 167.64 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3839b04b-d6bf-42e2-925c-0183a53a927c")
+		(property "Reference" "P23"
+			(at 167.64 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PCB_Patch"
+			(at 167.894 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "afork-kicad-parts:tinySJ-Bridged"
+			(at 168.91 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, normally closed, small symbol"
+			(at 167.64 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7244ac89-f579-406c-8523-c1a6c4d981f8")
+		)
+		(pin "2"
+			(uuid "3b858cce-b92c-468b-a2ca-57eeb5063e87")
+		)
+		(instances
+			(project "esp32-bldc-foc"
+				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
+					(reference "P23")
 					(unit 1)
 				)
 			)
@@ -8943,6 +9631,76 @@
 			(project "esp32-bldc-foc"
 				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
 					(reference "#PWR01013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "afork-kicad-parts:PCB_Patch")
+		(at 167.64 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48641f48-b2ef-46ca-9b29-373cda2eabd9")
+		(property "Reference" "P29"
+			(at 167.64 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PCB_Patch"
+			(at 167.894 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "afork-kicad-parts:tinySJ-Bridged"
+			(at 168.91 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, normally closed, small symbol"
+			(at 167.64 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16786227-a98f-4201-a555-a2018dc3cb2d")
+		)
+		(pin "2"
+			(uuid "53eb2634-4dd1-41b9-b457-93890889c9a2")
+		)
+		(instances
+			(project "esp32-bldc-foc"
+				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
+					(reference "P29")
 					(unit 1)
 				)
 			)
@@ -9499,7 +10257,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 168.91 21.59 0)
+		(at 163.83 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9508,7 +10266,7 @@
 		(fields_autoplaced yes)
 		(uuid "688cc9b9-9f31-4cfc-bc26-5e777db3e74d")
 		(property "Reference" "#PWR01012"
-			(at 168.91 25.4 0)
+			(at 163.83 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9517,7 +10275,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 170.307 20.32 0)
+			(at 165.227 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9526,7 +10284,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 21.59 0)
+			(at 163.83 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9535,7 +10293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 21.59 0)
+			(at 163.83 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9544,7 +10302,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 168.91 21.59 0)
+			(at 163.83 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9566,7 +10324,7 @@
 	)
 	(symbol
 		(lib_id "afork-kicad-parts:PCB_Pin_Breakout")
-		(at 158.75 63.5 0)
+		(at 152.4 63.5 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9576,7 +10334,7 @@
 		(fields_autoplaced yes)
 		(uuid "71e8ce2c-cef6-4b27-807d-52406350ae5f")
 		(property "Reference" "P2"
-			(at 158.75 61.468 0)
+			(at 152.4 61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9585,7 +10343,7 @@
 			)
 		)
 		(property "Value" "PCB_Pin_Breakout"
-			(at 158.496 65.024 0)
+			(at 152.146 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9594,7 +10352,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 158.75 63.5 0)
+			(at 152.4 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9603,7 +10361,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 63.5 0)
+			(at 152.4 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9612,7 +10370,7 @@
 			)
 		)
 		(property "Description" "PCB pin breakout"
-			(at 158.75 63.5 0)
+			(at 152.4 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10280,6 +11038,146 @@
 		)
 	)
 	(symbol
+		(lib_id "afork-kicad-parts:PCB_Patch")
+		(at 269.24 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d6edd72-fc91-4a9c-b9fb-69c9482a06c0")
+		(property "Reference" "P35"
+			(at 269.24 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PCB_Patch"
+			(at 269.494 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "afork-kicad-parts:tinySJ-Bridged"
+			(at 270.51 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, normally closed, small symbol"
+			(at 269.24 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9666001a-9982-4f43-8b66-edf74e0c947c")
+		)
+		(pin "2"
+			(uuid "f96f939f-49f7-408b-8057-0d60e1d17282")
+		)
+		(instances
+			(project "esp32-bldc-foc"
+				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
+					(reference "P35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "afork-kicad-parts:PCB_Patch")
+		(at 269.24 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d8727c1-bf92-41d0-a8f5-452d7cf61b0c")
+		(property "Reference" "P37"
+			(at 269.24 39.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PCB_Patch"
+			(at 269.494 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "afork-kicad-parts:tinySJ-Bridged"
+			(at 270.51 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, normally closed, small symbol"
+			(at 269.24 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f41763be-d69a-4c49-9d3b-56970c496832")
+		)
+		(pin "2"
+			(uuid "0a79e3e1-a4b9-474e-8351-d23e3b717dd5")
+		)
+		(instances
+			(project "esp32-bldc-foc"
+				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
+					(reference "P37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 229.87 124.46 0)
 		(unit 1)
@@ -10344,6 +11242,76 @@
 			(project "esp32-bldc-foc"
 				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "afork-kicad-parts:PCB_Patch")
+		(at 167.64 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9017e420-70c1-4faa-a338-66b02a82b39a")
+		(property "Reference" "P27"
+			(at 167.64 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PCB_Patch"
+			(at 167.894 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "afork-kicad-parts:tinySJ-Bridged"
+			(at 168.91 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, normally closed, small symbol"
+			(at 167.64 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d86bc365-8fdd-4f91-bc2a-e35fc80ce541")
+		)
+		(pin "2"
+			(uuid "c02f3d63-b7aa-4d83-8029-c2e3d8a0e38d")
+		)
+		(instances
+			(project "esp32-bldc-foc"
+				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
+					(reference "P27")
 					(unit 1)
 				)
 			)
@@ -10420,35 +11388,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 142.24 31.75 0)
-		(mirror y)
+		(lib_id "afork-kicad-parts:PCB_Patch")
+		(at 167.64 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "9450f66c-7df2-41f3-89da-acad67a8eaf3")
-		(property "Reference" "C1"
-			(at 139.319 30.5378 0)
+		(fields_autoplaced yes)
+		(uuid "941918f7-fb65-46f7-b385-e95608055b63")
+		(property "Reference" "P34"
+			(at 167.64 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "10u"
-			(at 139.319 32.9621 0)
+		(property "Value" "PCB_Patch"
+			(at 167.894 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 141.2748 35.56 0)
+		(property "Footprint" "afork-kicad-parts:tinySJ-Bridged"
+			(at 168.91 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10457,7 +11425,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 31.75 0)
+			(at 167.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, normally closed, small symbol"
+			(at 167.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0880c59c-c5e6-4bcb-b216-de88169cfff0")
+		)
+		(pin "2"
+			(uuid "9335f8e7-7d35-4121-879e-fdb32a4f5ed2")
+		)
+		(instances
+			(project "esp32-bldc-foc"
+				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
+					(reference "P34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 113.03 33.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9450f66c-7df2-41f3-89da-acad67a8eaf3")
+		(property "Reference" "C1"
+			(at 110.109 31.8078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 110.109 34.2321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 112.0648 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10466,7 +11504,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 142.24 31.75 0)
+			(at 113.03 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10484,6 +11522,76 @@
 			(project "esp32-bldc-foc"
 				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "afork-kicad-parts:PCB_Patch")
+		(at 167.64 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9852765d-65cc-45d1-afaa-43d25a0f4d82")
+		(property "Reference" "P28"
+			(at 167.64 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PCB_Patch"
+			(at 167.894 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "afork-kicad-parts:tinySJ-Bridged"
+			(at 168.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, normally closed, small symbol"
+			(at 167.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cebd64ee-d231-4d78-8977-3053228d0f07")
+		)
+		(pin "2"
+			(uuid "4f16a48d-425e-4c29-8a72-782c1462d7e0")
+		)
+		(instances
+			(project "esp32-bldc-foc"
+				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
+					(reference "P28")
 					(unit 1)
 				)
 			)
@@ -10556,35 +11664,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 148.59 31.75 0)
+		(lib_id "afork-kicad-parts:PCB_Patch")
+		(at 269.24 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a716d3be-b20d-4900-85ea-a79a81f651fc")
-		(property "Reference" "C2"
-			(at 151.511 30.5378 0)
+		(uuid "a12822cb-0dd1-468d-9ddc-e8965fcf8001")
+		(property "Reference" "P39"
+			(at 269.24 67.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "100n"
-			(at 151.511 32.9621 0)
+		(property "Value" "PCB_Patch"
+			(at 269.494 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 149.5552 35.56 0)
+		(property "Footprint" "afork-kicad-parts:tinySJ-Bridged"
+			(at 270.51 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10593,7 +11701,147 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 31.75 0)
+			(at 269.24 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, normally closed, small symbol"
+			(at 269.24 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea1429e5-7e72-4bbf-a679-38e8fe81942c")
+		)
+		(pin "2"
+			(uuid "46be7d94-a5ce-475c-92ef-ee5476116bfd")
+		)
+		(instances
+			(project "esp32-bldc-foc"
+				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
+					(reference "P39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "afork-kicad-parts:PCB_Patch")
+		(at 167.64 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a28659a4-b130-4ebf-bb9d-21c04bfa3dcd")
+		(property "Reference" "P32"
+			(at 167.64 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PCB_Patch"
+			(at 167.894 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "afork-kicad-parts:tinySJ-Bridged"
+			(at 168.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, normally closed, small symbol"
+			(at 167.64 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0527b894-1016-46fd-9999-0222c1633f57")
+		)
+		(pin "2"
+			(uuid "b0dd0feb-850e-4649-8986-414216c7d138")
+		)
+		(instances
+			(project "esp32-bldc-foc"
+				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
+					(reference "P32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 119.38 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a716d3be-b20d-4900-85ea-a79a81f651fc")
+		(property "Reference" "C2"
+			(at 122.301 31.8078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 122.301 34.2321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.3452 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10602,7 +11850,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 148.59 31.75 0)
+			(at 119.38 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10694,6 +11942,76 @@
 			(project "esp32-bldc-foc"
 				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
 					(reference "RESET1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "afork-kicad-parts:PCB_Patch")
+		(at 167.64 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aee38d3c-bda5-41ff-87c9-28b8fcf336d0")
+		(property "Reference" "P22"
+			(at 167.64 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PCB_Patch"
+			(at 167.894 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "afork-kicad-parts:tinySJ-Bridged"
+			(at 168.91 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, normally closed, small symbol"
+			(at 167.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ab1236a-e45f-45cb-8804-de8badcab6fe")
+		)
+		(pin "2"
+			(uuid "48b0e172-62f5-4eba-bdde-0070013b95af")
+		)
+		(instances
+			(project "esp32-bldc-foc"
+				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
+					(reference "P22")
 					(unit 1)
 				)
 			)
@@ -10967,7 +12285,7 @@
 	)
 	(symbol
 		(lib_id "afork-kicad-parts:PCB_Pin_Breakout")
-		(at 158.75 73.66 0)
+		(at 152.4 73.66 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10977,7 +12295,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3d2ef2b-d494-4339-9476-d5804b5f12a8")
 		(property "Reference" "P3"
-			(at 158.75 71.628 0)
+			(at 152.4 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10986,7 +12304,7 @@
 			)
 		)
 		(property "Value" "PCB_Pin_Breakout"
-			(at 158.496 75.184 0)
+			(at 152.146 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10995,7 +12313,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 158.75 73.66 0)
+			(at 152.4 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11004,7 +12322,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 73.66 0)
+			(at 152.4 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11013,7 +12331,7 @@
 			)
 		)
 		(property "Description" "PCB pin breakout"
-			(at 158.75 73.66 0)
+			(at 152.4 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11382,6 +12700,76 @@
 		)
 	)
 	(symbol
+		(lib_id "afork-kicad-parts:PCB_Patch")
+		(at 167.64 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc6e9a52-661c-48e2-b053-0735177bedf8")
+		(property "Reference" "P40"
+			(at 167.64 27.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PCB_Patch"
+			(at 167.894 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "afork-kicad-parts:tinySJ-Bridged"
+			(at 168.91 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, normally closed, small symbol"
+			(at 167.64 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d374c79d-ca5c-4d23-8cda-51c739cb4cff")
+		)
+		(pin "2"
+			(uuid "14457bdd-ef14-4083-b7cb-5154d968f9dd")
+		)
+		(instances
+			(project "esp32-bldc-foc"
+				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
+					(reference "P40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 229.87 118.11 0)
 		(unit 1)
@@ -11515,6 +12903,76 @@
 		)
 	)
 	(symbol
+		(lib_id "afork-kicad-parts:PCB_Patch")
+		(at 167.64 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d42cc97b-fecf-49e0-9908-dece383f09f6")
+		(property "Reference" "P25"
+			(at 167.64 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PCB_Patch"
+			(at 167.894 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "afork-kicad-parts:tinySJ-Bridged"
+			(at 168.91 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, normally closed, small symbol"
+			(at 167.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92adf90d-50ea-46ac-abea-f481513827b9")
+		)
+		(pin "2"
+			(uuid "51242fe5-cac8-493e-b18c-0fcf84ee93a1")
+		)
+		(instances
+			(project "esp32-bldc-foc"
+				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
+					(reference "P25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "afork-kicad-parts:PCB_Pin_Breakout")
 		(at 280.67 57.15 0)
 		(unit 1)
@@ -11576,6 +13034,76 @@
 			(project "esp32-bldc-foc"
 				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
 					(reference "P12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "afork-kicad-parts:PCB_Patch")
+		(at 167.64 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dca24b12-b987-4f51-b618-d1f2e892445b")
+		(property "Reference" "P31"
+			(at 167.64 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PCB_Patch"
+			(at 167.894 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "afork-kicad-parts:tinySJ-Bridged"
+			(at 168.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, normally closed, small symbol"
+			(at 167.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b1969e0-3410-4164-b82a-c91d51001e58")
+		)
+		(pin "2"
+			(uuid "fafcdfc3-005c-4c6a-af7b-20a2639289c5")
+		)
+		(instances
+			(project "esp32-bldc-foc"
+				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
+					(reference "P31")
 					(unit 1)
 				)
 			)
@@ -11972,7 +13500,7 @@
 	)
 	(symbol
 		(lib_id "afork-kicad-parts:PCB_Pin_Breakout")
-		(at 158.75 55.88 0)
+		(at 152.4 55.88 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11982,7 +13510,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed80f556-216b-429d-8749-0d48f402c554")
 		(property "Reference" "P1"
-			(at 158.75 53.848 0)
+			(at 152.4 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11991,7 +13519,7 @@
 			)
 		)
 		(property "Value" "PCB_Pin_Breakout"
-			(at 158.496 57.404 0)
+			(at 152.146 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12000,7 +13528,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 158.75 55.88 0)
+			(at 152.4 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12009,7 +13537,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 55.88 0)
+			(at 152.4 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12018,7 +13546,7 @@
 			)
 		)
 		(property "Description" "PCB pin breakout"
-			(at 158.75 55.88 0)
+			(at 152.4 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12100,6 +13628,146 @@
 			(project "esp32-bldc-foc"
 				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
 					(reference "P15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "afork-kicad-parts:PCB_Patch")
+		(at 269.24 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efb71d29-644e-4a1e-a976-640d07b068af")
+		(property "Reference" "P38"
+			(at 269.24 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PCB_Patch"
+			(at 269.494 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "afork-kicad-parts:tinySJ-Bridged"
+			(at 270.51 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, normally closed, small symbol"
+			(at 269.24 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2a5cc2d-a31b-4010-a493-d7c00841ff33")
+		)
+		(pin "2"
+			(uuid "45356ba2-a836-43bd-961e-71181a811a89")
+		)
+		(instances
+			(project "esp32-bldc-foc"
+				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
+					(reference "P38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "afork-kicad-parts:PCB_Patch")
+		(at 167.64 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff0cf49c-d013-4748-80ed-01c26c542b88")
+		(property "Reference" "P33"
+			(at 167.64 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PCB_Patch"
+			(at 167.894 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "afork-kicad-parts:tinySJ-Bridged"
+			(at 168.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, normally closed, small symbol"
+			(at 167.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd793b5a-a7e2-4b85-a335-4b4054d02f92")
+		)
+		(pin "2"
+			(uuid "2c7ba6bf-f909-48dd-959e-a6452f45e51e")
+		)
+		(instances
+			(project "esp32-bldc-foc"
+				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
+					(reference "P33")
 					(unit 1)
 				)
 			)

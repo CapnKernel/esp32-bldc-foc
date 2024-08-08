@@ -234,7 +234,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "afork-kicad-parts"
+    ]
   },
   "meta": {
     "filename": "esp32-bldc-foc.kicad_pro",
