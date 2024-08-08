@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" ":DFN-8_L3.2-W3.1-P0.65-LS3.4-BL"
+		(property "Footprint" "afork-kicad-parts:DFN-8_L3.2-W3.1-P0.65-LS3.4-BL"
 			(at 3.81 20.32 0)
 			(effects
 				(font
@@ -854,7 +854,7 @@
 				)
 			)
 		)
-		(property "Footprint" ":SOT-23-6_L2.9-W1.6-P0.95-LS2.8-TL"
+		(property "Footprint" "esp32-bldc-foc:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-TL"
 			(at 0 -10.16 0)
 			(effects
 				(font

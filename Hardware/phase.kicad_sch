@@ -429,7 +429,7 @@
 					)
 				)
 			)
-			(property "Footprint" ":DFN-8_L3.2-W3.1-P0.65-LS3.4-BL"
+			(property "Footprint" "afork-kicad-parts:DFN-8_L3.2-W3.1-P0.65-LS3.4-BL"
 				(at 3.81 20.32 0)
 				(effects
 					(font
@@ -817,7 +817,7 @@
 					)
 				)
 			)
-			(property "Footprint" ":SOT-23-6_L2.9-W1.6-P0.95-LS2.8-TL"
+			(property "Footprint" "esp32-bldc-foc:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-TL"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -2089,7 +2089,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 146.558 87.63 90)
 			(effects
 				(font
@@ -2166,7 +2166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ":DFN-8_L3.2-W3.1-P0.65-LS3.4-BL"
+		(property "Footprint" "afork-kicad-parts:DFN-8_L3.2-W3.1-P0.65-LS3.4-BL"
 			(at 96.52 85.09 0)
 			(effects
 				(font
@@ -2426,7 +2426,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 69.85 86.36 0)
 			(effects
 				(font
@@ -2501,7 +2501,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 78.74 81.788 90)
 			(effects
 				(font
@@ -2724,7 +2724,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 116.84 94.488 90)
 			(effects
 				(font
@@ -2876,7 +2876,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 69.85 66.04 0)
 			(effects
 				(font
@@ -3101,7 +3101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ":DFN-8_L3.2-W3.1-P0.65-LS3.4-BL"
+		(property "Footprint" "afork-kicad-parts:DFN-8_L3.2-W3.1-P0.65-LS3.4-BL"
 			(at 96.52 59.69 0)
 			(effects
 				(font
@@ -3206,7 +3206,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 78.74 107.188 90)
 			(effects
 				(font
@@ -3358,7 +3358,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.7 63.5 0)
 			(effects
 				(font
@@ -3581,7 +3581,7 @@
 				)
 			)
 		)
-		(property "Footprint" ":SOT-23-6_L2.9-W1.6-P0.95-LS2.8-TL"
+		(property "Footprint" "esp32-bldc-foc:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-TL"
 			(at 132.08 85.09 0)
 			(effects
 				(font
@@ -3680,7 +3680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 143.002 100.33 90)
 			(effects
 				(font
