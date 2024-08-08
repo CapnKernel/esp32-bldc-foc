@@ -3449,7 +3449,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "32V?"
 			(at 182.88 52.1278 90)
 			(effects
 				(font
@@ -3823,7 +3823,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "100k"
 			(at 113.2586 72.3321 0)
 			(effects
 				(font
@@ -3893,7 +3893,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 231.648 59.6321 0)
 			(effects
 				(font
@@ -3961,7 +3961,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "15uH/3A"
 			(at 162.56 52.07 90)
 			(effects
 				(font
@@ -4029,7 +4029,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 142.24 50.7308 90)
 			(effects
 				(font
@@ -4163,7 +4163,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "1A"
 			(at 59.69 63.5578 90)
 			(effects
 				(font
@@ -4495,7 +4495,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "SS54"
 			(at 70.1675 63.0498 0)
 			(effects
 				(font
@@ -4564,7 +4564,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "24.9k"
 			(at 113.2586 83.7621 0)
 			(effects
 				(font
@@ -4700,7 +4700,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "40.2k"
 			(at 177.038 86.3021 0)
 			(effects
 				(font
@@ -4972,7 +4972,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 105.791 77.4121 0)
 			(effects
 				(font
@@ -5108,7 +5108,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 151.638 86.3021 0)
 			(effects
 				(font
@@ -5178,7 +5178,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 232.791 71.3796 90)
 			(effects
 				(font
@@ -5312,7 +5312,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "210k"
 			(at 177.8 67.31 90)
 			(effects
 				(font
@@ -5381,7 +5381,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 223.901 64.7121 0)
 			(effects
 				(font
@@ -5847,7 +5847,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "220u"
 			(at 171.831 61.2831 0)
 			(effects
 				(font
@@ -5983,7 +5983,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 193.421 63.4421 0)
 			(effects
 				(font
@@ -6053,7 +6053,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "100u"
 			(at 98.171 76.5231 0)
 			(effects
 				(font
@@ -6189,7 +6189,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "150p"
 			(at 152.781 76.1421 0)
 			(effects
 				(font
@@ -6259,7 +6259,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "B340A-13-F"
 			(at 158.242 62.1721 90)
 			(effects
 				(font
@@ -6347,7 +6347,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 123.698 79.9521 0)
 			(effects
 				(font
@@ -6417,7 +6417,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "100u"
 			(at 89.281 76.5231 0)
 			(effects
 				(font

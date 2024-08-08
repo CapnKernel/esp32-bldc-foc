@@ -2080,7 +2080,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 146.558 88.8421 0)
 			(effects
 				(font
@@ -2339,7 +2339,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10u"
 			(at 101.3841 78.6757 0)
 			(effects
 				(font
@@ -2417,7 +2417,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 72.1741 87.5657 0)
 			(effects
 				(font
@@ -2493,7 +2493,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2R2"
 			(at 78.74 85.09 90)
 			(effects
 				(font
@@ -2716,7 +2716,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0R01"
 			(at 116.84 89.9738 90)
 			(effects
 				(font
@@ -2867,7 +2867,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "B5819WS"
 			(at 71.882 67.5696 90)
 			(effects
 				(font
@@ -3198,7 +3198,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2R2"
 			(at 78.74 110.49 90)
 			(effects
 				(font
@@ -3349,7 +3349,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 142.0241 64.7057 0)
 			(effects
 				(font
@@ -3671,7 +3671,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 146.558 101.5421 0)
 			(effects
 				(font
