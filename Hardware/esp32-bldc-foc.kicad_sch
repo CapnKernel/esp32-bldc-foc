@@ -5,145 +5,6 @@
 	(uuid "5fd9cc58-24f5-445f-b12c-0418263ff67c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
@@ -2475,6 +2336,26 @@
 					)
 				)
 			)
+			(symbol "MountingHole_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 		)
 		(symbol "afork-kicad-parts:PCB_Patch"
 			(pin_numbers hide)
@@ -4765,126 +4646,6 @@
 				)
 			)
 		)
-		(symbol "power:VBUS"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:Vdrive"
 			(power)
 			(pin_numbers hide)
@@ -5250,16 +5011,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 80.01) (xy 39.37 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ff76d4a-b4f4-48d1-a92a-779b1b970bbb")
-	)
-	(wire
-		(pts
 			(xy 256.54 36.83) (xy 270.51 36.83)
 		)
 		(stroke
@@ -5477,16 +5228,6 @@
 			(type default)
 		)
 		(uuid "341036bd-901b-4e11-bc44-6d17de112111")
-	)
-	(wire
-		(pts
-			(xy 36.83 77.47) (xy 39.37 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3497cff4-57a6-4938-85db-9ebbbb462ef6")
 	)
 	(wire
 		(pts
@@ -5977,16 +5718,6 @@
 			(type default)
 		)
 		(uuid "6ecee592-ebd8-41f6-bef8-2284778153e9")
-	)
-	(wire
-		(pts
-			(xy 39.37 80.01) (xy 39.37 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74330b8f-b257-4a8d-a28f-19f312aad587")
 	)
 	(wire
 		(pts
@@ -6767,16 +6498,6 @@
 			(type default)
 		)
 		(uuid "e48743a6-1d78-4ef7-bd6d-820ea8b1efe7")
-	)
-	(wire
-		(pts
-			(xy 39.37 77.47) (xy 39.37 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e577ce9a-89fa-4919-84e4-a326f931a088")
 	)
 	(wire
 		(pts
@@ -7967,72 +7688,6 @@
 			(project "esp32-bldc-foc"
 				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
 					(reference "P10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 39.37 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18ca1751-9afe-4b87-a4a1-ed1145a3ba36")
-		(property "Reference" "#PWR01004"
-			(at 39.37 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 39.37 70.7969 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 39.37 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e66f4733-06de-45de-a3ec-c77119184ac9")
-		)
-		(instances
-			(project "esp32-bldc-foc"
-				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
-					(reference "#PWR01004")
 					(unit 1)
 				)
 			)
@@ -9276,72 +8931,6 @@
 			(project "esp32-bldc-foc"
 				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
 					(reference "P29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 39.37 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b7a68db-bbc6-4556-b370-5724b88bc9d0")
-		(property "Reference" "#PWR01005"
-			(at 39.37 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 39.37 96.8431 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15e6ed18-02cd-4244-9e1d-3a5442e321f2")
-		)
-		(instances
-			(project "esp32-bldc-foc"
-				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
-					(reference "#PWR01005")
 					(unit 1)
 				)
 			)
@@ -11053,7 +10642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 127.3048 45.72 0)
 			(effects
 				(font
@@ -12326,76 +11915,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 31.75 77.47 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca68a349-af68-41ea-854e-deb83a79ee97")
-		(property "Reference" "J3"
-			(at 29.718 77.5278 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VDRIVE"
-			(at 29.718 79.9521 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03402HBLC_1x02_P3.81mm_Horizontal"
-			(at 31.75 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 31.75 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e880c7b0-6ddd-4899-b504-e039b1306ea6")
-		)
-		(pin "1"
-			(uuid "a7fd83c3-0c1d-41b0-ba10-7df9ab014ed4")
-		)
-		(instances
-			(project "esp32-bldc-foc"
-				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "afork-kicad-parts:MountingHole")
 		(at 171.45 170.18 0)
 		(mirror y)
@@ -12449,6 +11968,9 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "d97bc1f3-b2b6-4a1d-aa18-b2f2754126b8")
 		)
 		(instances
 			(project "esp32-bldc-foc"
@@ -12716,6 +12238,9 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "e2e175dd-1a20-47c8-be4b-57e51fdbd17b")
 		)
 		(instances
 			(project "esp32-bldc-foc"
@@ -13122,6 +12647,9 @@
 				(hide yes)
 			)
 		)
+		(pin "1"
+			(uuid "2bf5c549-2fea-48a3-84cb-900fffe4a07f")
+		)
 		(instances
 			(project "esp32-bldc-foc"
 				(path "/5fd9cc58-24f5-445f-b12c-0418263ff67c"
@@ -13434,6 +12962,9 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "ff2b0f3f-8389-45b5-bafc-b21bfd709056")
 		)
 		(instances
 			(project "esp32-bldc-foc"
